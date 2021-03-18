@@ -2,18 +2,18 @@
   Iniciar com letra, pode conter números, separar por _, letras minúsculas
 """
 
-nome = 'Gabriel'
-peso = 75
-idade = 28
-altura = 1.85
-maior_idade = idade > 18
+name = 'Gabriel'
+weight = 75
+age = 28
+height = 1.85
+is_more_eighteen = age > 18
 
-print(nome) # Gabriel
-print(idade) # 28
-print(altura) # 1.85
-print(maior_idade) # True
-print(type(nome)) # <class 'str'>
+print(name) # Gabriel
+print(age) # 28
+print(height) # 1.85
+print(is_more_eighteen) # True
+print(type(name)) # <class 'str'>
 
-indice_massa_corporal = peso / (altura**2)
-round_imc = round(indice_massa_corporal, 2)
-print(f'{nome} tem: {round_imc}')
+index_mass_body = weight / (height**2)
+round_imc = round(index_mass_body, 2)
+print(f'{name} has: {round_imc} IMC.')
