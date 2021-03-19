@@ -1,4 +1,4 @@
-num_integer = input('put the number integer: ')
+num_integer = input('put the number integer:  ')
 if not num_integer.isnumeric():
   print('this number is not integer')
 
