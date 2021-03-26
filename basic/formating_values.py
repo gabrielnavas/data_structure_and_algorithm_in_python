@@ -17,3 +17,5 @@ print(name.center(50, '#')) ######################gabriel######################
 print(name.lower()) # gabriel
 print(name.upper()) # GABRIEL
 print(name.title()) # Gabriel
+
+print(name.split('a')) # ['g', 'briel']
