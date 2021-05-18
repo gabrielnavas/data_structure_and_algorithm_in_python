@@ -14,3 +14,4 @@ print(p2) # <person.Person object at 0x7fac43445850>
 
 p2.to_talk('Hey, you')
 p2.to_eat()
+print(p2.year_now)

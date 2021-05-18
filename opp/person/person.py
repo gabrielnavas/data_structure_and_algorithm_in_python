@@ -37,6 +37,8 @@ class Talk:
             print(f'{who_name}: stopped talking.')
 
 class Person:
+    year_now = int(datetime.strftime(datetime.utcnow(), '%Y'))
+
     def __init__(self, name, born: datetime, eat: Eat, talk: Talk):
         self.name = name
         self.born = born
